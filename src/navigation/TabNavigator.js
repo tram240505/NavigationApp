@@ -20,12 +20,6 @@ const TabNavigator = () => {
             case 'Home':
               iconName = 'home-outline';
               break;
-            case 'Details':
-              iconName = 'list-outline';
-              break;
-            case 'Profile':
-              iconName = 'person-outline';
-              break;
             case 'Search':
               iconName = 'search-outline';
               break;
@@ -46,8 +40,6 @@ const TabNavigator = () => {
     >
       <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Search" component={SearchScreen} />
-      <Tab.Screen name="Details" component={DetailsScreen} />
-      <Tab.Screen name="Profile" component={ProfileScreen} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
     </Tab.Navigator>
   );
